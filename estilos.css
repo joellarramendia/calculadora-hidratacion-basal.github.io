@@ -4,7 +4,7 @@
 }
 
 body {
-    background: #f6f5f7; 
+    background: #D9D8D9;
     font-family: 'Montserrat', sans-serif;
     color: #3E363F;
 }
@@ -52,7 +52,7 @@ input {
 	width: 70%;
     padding: 12px 15px;
     border: none;
-    background-color: #eee;
+    background-color: #d4d3d5;
 }
 
 button {
@@ -98,4 +98,31 @@ button:active {
 #radio-button{
     display: none;
     padding: 12px 15px;
+}
+
+
+/* Responsive styles for smaller screens */
+@media screen and (max-width: 768px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .calculadora,
+    .detalle {
+        width: 100%;
+        float: none;
+    }
+}
+
+/* Additional styles for smaller screens */
+@media screen and (max-width: 768px) {
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
