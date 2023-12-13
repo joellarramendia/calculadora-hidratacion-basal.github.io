@@ -101,28 +101,4 @@ button:active {
 }
 
 
-/* Responsive styles for smaller screens */
-@media screen and (max-width: 768px) {
-    .contenedor {
-        width: 100%;
-    }
 
-    .calculadora,
-    .detalle {
-        width: 100%;
-        float: none;
-    }
-}
-
-/* Additional styles for smaller screens */
-@media screen and (max-width: 768px) {
-    input {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-
-    button {
-        width: 100%;
-        margin-top: 10px;
-    }
-}
